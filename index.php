@@ -83,7 +83,7 @@ $res = $Stat->getCampaignDeliveryStats($campaign_id);
 
 
 } else {
-недостаточно денег на рассылку
+    die ('недостаточно денег на рассылку');
 }
 
 ?>
